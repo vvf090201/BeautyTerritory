@@ -1,0 +1,64 @@
+body {
+    background-color: #fff5f8; /* Нежно-розовый фон */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a4a4a;
+}
+
+h1, h2 {
+    color: #d16b86; /* Розово-винный цвет заголовков */
+    font-weight: 600;
+}
+
+.product-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(209, 107, 134, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(209, 107, 134, 0.3);
+    }
+
+.emoji-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.badge-category {
+    background-color: #fce4ec;
+    color: #c2185b;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #d16b86;
+    margin-top: auto;
+}
+
+.btn-pink {
+    background-color: #f8bbd0;
+    color: #880e4f;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-weight: 600;
+}
+
+    .btn-pink:hover {
+        background-color: #f48fb1;
+        color: white;
+    }
